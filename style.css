@@ -4,8 +4,17 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('fonts/Norse-Bold.woff2') format('woff2'),
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .test 
 {
+    font-family: 'Norse Bold', sans-serif;
     color: red;
     font-size: 2rem;
     text-align: center;
